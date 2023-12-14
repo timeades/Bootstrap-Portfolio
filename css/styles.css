@@ -10,15 +10,11 @@ h6 {
 p {
   font-family: "Jura", sans-serif;
 }
-.metal {
-  font-family: "Metal Mania", sans-serif;
+.leader {
+  color: #000;
 }
-.metal1 {
-  font-family: "Metal Mania", sans-serif;
-  color: darkslategray;
-}
-.rabstorm {
-  color: darkslategray;
+.sectionHead {
+    padding: 15PX
 }
 
 /* Navigation bar */
@@ -43,6 +39,14 @@ p {
 .nav-item {
   margin: 0px 15px;
 }
+.nav-link {
+  font-size: 20px;
+  color: white !important;
+}
+.myImage {
+  width: 100%;
+  border-radius: 50%;
+}
 
 /* Navigation dropdown menu */
 .dropdown-menu {
@@ -63,4 +67,73 @@ p {
 }
 .navCTA {
   font-size: 15px;
+}
+
+/* Jumbotron */
+.testing {
+  background: url("../images/software-testing-op50.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+/* Resume Section */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+.getacopy {
+    padding-top: 50px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black !important;
+    font-family: "Jura", sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* End Resume Section */
+
+/* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+.dropdown-menu {
+  left: -97px;
+}
+footer {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+.cardContainer {
+  margin-top: 20px;
+}
+.card {
+  margin: 0 auto;
 }
